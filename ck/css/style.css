@@ -1,0 +1,48 @@
+body {
+    background: #373737;
+}
+
+#calendar-view {
+	width:700px;
+	margin:50px auto;
+}
+
+#calendar-dom {
+	width:600px;
+	height:1440px;
+	margin:0 auto;
+	position:relative;
+    background: #4e4e4e;
+    float: left;
+}
+#calendar-dom > div{
+    font-size: 24px;
+    color: #4e4e4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#y-axis {
+	height:1440px;
+	font-family:arial;
+	float: left;
+    margin-top: -1px;
+}
+
+#y-axis .minute {
+	height:30px;
+	font-weight:bold;
+	text-align:right;
+	line-height:0;
+    color: #999;
+}
+
+#y-axis .minute span {
+	font-size:12px;
+	padding:2px 0;
+	font-weight: 300;
+}
+#y-axis .quarter.minute span {
+	font-size:8px;
+}
